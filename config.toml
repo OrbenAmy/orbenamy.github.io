@@ -20,7 +20,7 @@ googleAnalytics = ""
   copyright = "&copy; 2018 Amy Orben"
 
   # Favicon
-  favicon = "favicon.ico"
+  favicon = "images/favicon.ico"
 
   # Section - Content
   [params.content]
