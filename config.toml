@@ -47,10 +47,12 @@ googleAnalytics = ""
       [[params.links.list1.link]]
         text = "Blog"
         url = "www.techsposed.co.uk"
+        relativeUrl=false
 
       [[params.links.list1.link]]
         text = "Twitter"
         url = "www.twitter.com/OrbenAmy"
+        relativeUrl=false
 
   # Links List #2
   [[params.links]]
