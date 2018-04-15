@@ -1,4 +1,4 @@
-# Site settings
+images/HappyBW.jpg≈# Site settings
 baseURL = "https://amyorben.com/"
 languageCode = "en-US"
 title = "Amy Orben"
@@ -43,7 +43,7 @@ googleAnalytics = ""
 
       [[params.links.list1.link]]
         text = "Blog"
-        url = "ww.techsposed.co.uk"
+        url = "www.techsposed.co.uk"
 
       [[params.links.list1.link]]
         text = "Twitter"
