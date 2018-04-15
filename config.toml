@@ -1,0 +1,68 @@
+# Site settings
+baseURL = "https://amyorben.com/"
+languageCode = "en-US"
+title = "Amy Orben"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Amy Orben"
+  description = "Amy Orben - Oxford University psychologists researching social media and technology use"
+  shareImage = "images/Serious.jpg"
+  twitterHandle = "@OrbenAmy"
+
+  # Copyright
+  copyright = "&copy; 2018 Amy Orben"
+
+  # Section - Content
+  [params.content]
+    name = "Psychologist | College Lecturer | DPhil Candidate"
+    tagline = "Amy Orben"
+    bio = "University of Oxford psychologist Amy Orben's research tackles questions concerning one of society's most recent and widespread developments: the rise of social media. Using both data-driven and experimental methodology, she investigates how social media is shaping our relationships and influencing our well-being. She also campaigns for improving how psychologists communicate data and findings with the public and policy makers.  Amy is a Stipendiary College Lecturer in Psychology at The Queen's College and is currently in her last year of her doctorate.  She enjoys discussing about how social media might not be as bad as you expect, having appeared on platforms including BBC 2, BBC Radio 4, BBC World Service and BBC News."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/HappyBW.jpg"
+      position = "center center"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "ww.techsposed.co.uk"
+
+      [[params.links.list1.link]]
+        text = "Twitter"
+        url = "www.twitter.com/OrbenAmy"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Info"
+
+      [[params.links.list2.link]]
+        text = "Dept Webpage"
+        url = "www.oxford.ac.uk"
+
+      [[params.links.list2.link]]
+        text = "Email"
+        url = "amy.orben@psy.ox.ac.uk"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
